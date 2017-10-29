@@ -10,7 +10,7 @@ Progressive AI
 - [Deep Learning](#deep-learning)
 - [Real AI for ME](#real-ai-for-me)
 - [Reinforcement Learning](reinforcement-learning)
-- [Further more there days](further-more-there-days)
+- [Further more these days](further-more-these-days)
 
 ## Whats the AI
 
@@ -114,7 +114,7 @@ scientist also working on this.
 
 TODO: 
 
-## Further more there days
+## Further more these days
 
 TODO:
 
