@@ -6,6 +6,7 @@ Progressive AI
 
 - [Whats the AI](#whats-the-ai)
 - [What can be AI](#what-can-be-ai)
+- [Machine Learning](#machine-learning)
 
 ## Whats the AI
 
@@ -23,7 +24,11 @@ What can be AI? The machine learning? Deep learning? Or something others? Let's 
 
 ![ai-ml-dl](https://github.com/zslucky/progressive-ai/blob/master/images/al-ml-dl.png)
 
-Most of times we need an `agent` to do something like recognition or prediction.
+Most of times we need an `agent` to do something like recognition or prediction. AI can do these thing well.
+
+Now we used AI in many domains like `NLP(Natural Language Processing)自然语言处理`, `Compute Vision计算机视觉(image recognition, object detection, etc...)`, `Recommendation System推荐系统`, `Robot机器人` etc...
+
+Each domain has its own algorithms, but some algorithms are the same.
 
 **The Basic function?**
 
@@ -31,4 +36,36 @@ Most of times we need an `agent` to do something like recognition or prediction.
 - data/big data + machine learning - 数据/大数据 + 机器学习
 - big data + deep learning - 大数据 + 深度学习
 
-**The advanced function?**
+Above methods can be integrated with some big data framework and algorithms framework.
+
+## Machine Learning
+
+> -- From [Wiki](https://en.wikipedia.org/wiki/Machine_learning): \
+> Machine learning is a field of computer science that gives computers the ability to learn without being explicitly programmed
+
+> -- From [Baidu](http://baike.baidu.com/link?url=vHyK-xsJBNq-kbu8c9ewuOuNQUdwaDGHhoEybClwhCI6dX_86cX975H-vdrT3-Iq6LqU5kcpuPKPHIttNCde0E94e-kPBzwj99JucJ3peWYwwuP_nVUhhL1LevwHzp87): \
+> 机器学习(Machine Learning, ML)是一门多领域交叉学科，涉及概率论、统计学、逼近论、凸分析、算法复杂度理论等多门学科。专门研究计算机怎样模拟或实现人类的学习行为，以获取新的知识或技能，重新组织已有的知识结构使之不断改善自身的性能。
+
+**Let's use `Eigenface` as an example:**
+
+TODO
+
+**For advanced:**
+
+Actually, in order to detect face, we should solve many real-world issues, so many great teams provide many  different methods to solve complex issues, here is a general method which include 4 parts:
+
+- Face detection(人脸定位)
+- Face alignment(人脸校准)
+- Face verification(人脸确认)
+- Face identifiction/recognition(人脸识别)
+
+
+## Deep Learning
+
+> -- From [Wiki](https://en.wikipedia.org/wiki/Deep_learning): \
+> Deep learning (also known as deep structured learning or hierarchical learning) is part of a broader family of machine learning methods based on learning data representations, as opposed to task-specific algorithms. Learning can be supervised, partially supervised or unsupervised.
+
+> -- From [Baidu](https://baike.baidu.com/item/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/3729729?fr=aladdin): \
+> 深度学习的概念源于人工神经网络的研究。含多隐层的多层感知器就是一种深度学习结构。深度学习通过组合低层特征形成更加抽象的高层表示属性类别或特征，以发现数据的分布式特征表示。
+
+
