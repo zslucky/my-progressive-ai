@@ -21,7 +21,7 @@ What's the AI?
 
 What can be AI? The machine learning? Deep learning? Or something others? Let's look at a picture shows the relationship between these 3 things:
 
-![AI&ML&DL](/ai-ml-dl.png)
+![AI&ML&DL](ai-ml-dl.png)
 
 Most of times we need an `agent` to do something like recognition or prediction. 
 
