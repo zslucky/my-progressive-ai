@@ -8,7 +8,9 @@ Progressive AI
 - [What can be AI](#what-can-be-ai)
 - [Machine Learning](#machine-learning)
 - [Deep Learning](#deep-learning)
+- [Real AI for ME](#real-ai-for-me)
 - [Reinforcement Learning](reinforcement-learning)
+- [Further more there days](further-more-there-days)
 
 ## Whats the AI
 
@@ -94,11 +96,26 @@ TODO: descript every parts
 
 It likes Machine learning, but use neural network. As data become bigger and bigger, hardware become more and more quick, deep learning become more and more popular.
 
-Also there are many algorithms like `CNN(Convolutional Neural Network)卷积神经网络`, `RNN(Recurrent Neural Networks)循环神经网络` etc...
+Also there are many algorithms like `CNN(Convolutional Neural Network)卷积神经网络`, `RNN(Recurrent Neural Networks)循环神经网络`, `DRL` etc...
 
 Before these algorithms, we should know the `perceptron network(感知器神经网络)`, which we talked before, we can refer to these [article](http://neuralnetworksanddeeplearning.com/chap1.html) write by [Michael Nielsen](https://github.com/mnielsen)
 
+## Real AI for ME
+
+The introduction above can easily let machine to do easy and single task which machine can learn the rule from large data.
+
+**But do you think it's the real AI?**
+
+The real AI for me is that it can do multi tasks, can think when in different environments.
+
+scientist also working on this.
 
 ## Reinforcement Learning
 
 TODO: 
+
+## Further more there days
+
+TODO:
+
+- DQL
