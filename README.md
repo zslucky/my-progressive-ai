@@ -7,6 +7,8 @@ Progressive AI
 - [Whats the AI](#whats-the-ai)
 - [What can be AI](#what-can-be-ai)
 - [Machine Learning](#machine-learning)
+- [Deep Learning](#deep-learning)
+- [Reinforcement Learning](reinforcement-learning)
 
 ## Whats the AI
 
@@ -46,9 +48,29 @@ Above methods can be integrated with some big data framework and algorithms fram
 > -- From [Baidu](http://baike.baidu.com/link?url=vHyK-xsJBNq-kbu8c9ewuOuNQUdwaDGHhoEybClwhCI6dX_86cX975H-vdrT3-Iq6LqU5kcpuPKPHIttNCde0E94e-kPBzwj99JucJ3peWYwwuP_nVUhhL1LevwHzp87): \
 > 机器学习(Machine Learning, ML)是一门多领域交叉学科，涉及概率论、统计学、逼近论、凸分析、算法复杂度理论等多门学科。专门研究计算机怎样模拟或实现人类的学习行为，以获取新的知识或技能，重新组织已有的知识结构使之不断改善自身的性能。
 
+There are many algorithms like `SVM(support vector machine)`, `DT(decision tree)`, `bayes theory`, `KNN` etc... Most algorithms can be used together as ensemble, for example, we recognize a people whether is Bush? 1 for `true`, 0 for `false`, now we use 3 algorithms to recognize 5 pictures, see the results bellow:
+
+```javascript
+// Use SVM we got:
+// 0 1 1 0 1
+// Accuracy: 60%
+
+// Use DT we got:
+// 1 0 0 1 1
+// Accuracy: 60%
+
+//Use Bayes we got:
+// 1 1 0 1 0
+// Accuracy: 60%
+
+// Use vote as assemble we got:
+// 1 1 0 1 1
+// Accuracy: 80%
+```
+
 **Let's use `Eigenface` as an example:**
 
-TODO
+TODO: the eigenface demo
 
 **For advanced:**
 
@@ -59,6 +81,8 @@ Actually, in order to detect face, we should solve many real-world issues, so ma
 - Face verification(人脸确认)
 - Face identifiction/recognition(人脸识别)
 
+TODO: descript every parts
+
 
 ## Deep Learning
 
@@ -68,4 +92,13 @@ Actually, in order to detect face, we should solve many real-world issues, so ma
 > -- From [Baidu](https://baike.baidu.com/item/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/3729729?fr=aladdin): \
 > 深度学习的概念源于人工神经网络的研究。含多隐层的多层感知器就是一种深度学习结构。深度学习通过组合低层特征形成更加抽象的高层表示属性类别或特征，以发现数据的分布式特征表示。
 
+It likes Machine learning, but use neural network. As data become bigger and bigger, hardware become more and more quick, deep learning become more and more popular.
 
+Also there are many algorithms like `CNN(Convolutional Neural Network)卷积神经网络`, `RNN(Recurrent Neural Networks)循环神经网络` etc...
+
+Before these algorithms, we should know the `perceptron network(感知器神经网络)`, which we talked before, we can refer to these [article](http://neuralnetworksanddeeplearning.com/chap1.html) write by [Michael Nielsen](https://github.com/mnielsen)
+
+
+## Reinforcement Learning
+
+TODO: 
