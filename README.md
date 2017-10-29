@@ -9,8 +9,8 @@ Progressive AI
 - [Machine Learning](#machine-learning)
 - [Deep Learning](#deep-learning)
 - [Real AI for ME](#real-ai-for-me)
+- [AI Levels](#ai-levels)
 - [Reinforcement Learning](reinforcement-learning)
-- [Further more these days](further-more-these-days)
 
 ## Whats the AI
 
@@ -102,20 +102,24 @@ Before these algorithms, we should know the `perceptron network(感知器神经�
 
 ## Real AI for ME
 
-The introduction above can easily let machine to do easy and single task which machine can learn the rule from large data.
+The introduction above shows that nowadays machine can do many things in our life.
 
 **But do you think it's the real AI?**
 
-The real AI for me is that it can do multi tasks, can think when in different environments.
+The real AI for me is that it can do multi tasks, have thought.
 
-scientist also working on this.
+**If it's not read AI, why introduce this?**
+
+Because every things above has its own meaning at that time, all above are the AI's base.
+
+## AI Levels
+
+- Supervised learning(有监督学习)
+- Unsupervised learning(无监督学习)
+- Reinforcement learning(强化学习)
+- Meta learning(元学习, 也有类似的概念如迁移学习等)
 
 ## Reinforcement Learning
 
-TODO: 
-
-## Further more these days
-
 TODO:
 
-- DQL
