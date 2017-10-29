@@ -21,7 +21,7 @@ What's the AI?
 
 What can be AI? The machine learning? Deep learning? Or something others? Let's look at a picture shows the relationship between these 3 things:
 
-![ai-ml-dl](/images/ai-ml-dl.png)
+![ai-ml-dl](https://github.com/zslucky/progressive-ai/blob/master/images/al-ml-dl.png)
 
 Most of times we need an `agent` to do something like recognition or prediction.
 
