@@ -65,7 +65,7 @@ There are many algorithms like `SVM(support vector machine)`, `DT(decision tree)
 // 1 1 0 1 0
 // Accuracy: 60%
 
-// Use vote as assemble we got:
+// Use vote as assemble (random froest) we got:
 // 1 1 0 1 1
 // Accuracy: 80%
 ```
