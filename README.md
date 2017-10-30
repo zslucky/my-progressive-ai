@@ -72,18 +72,18 @@ There are many algorithms like `SVM(support vector machine)`, `DT(decision tree)
 
 **Let's use `Eigenface` as an example:**
 
-TODO: the eigenface demo
+See the [demo](https://github.com/zslucky/ud120-projects/blob/master/pca/face%20detection.ipynb) which is provided by `sklearn` and modified a little by myself.
 
 **For advanced:**
 
 Actually, in order to detect face, we should solve many real-world issues, so many great teams provide many  different methods to solve complex issues, here is a general method which include 4 parts:
 
-- Face detection(人脸定位)
-- Face alignment(人脸校准)
+- Face detection(人脸定位)(e.g. Kalman filtering卡尔曼滤波等)
+- Face alignment(人脸校准)(e.g. 3D/2D转换, 角度矫正等)
 - Face verification(人脸确认)
 - Face identifiction/recognition(人脸识别)
 
-TODO: descript every parts
+For more compute vision algorithms, please refer to `OpenCV` [official site](https://docs.opencv.org/master/d9/df8/tutorial_root.html)
 
 
 ## Deep Learning
