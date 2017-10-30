@@ -129,8 +129,8 @@ MDP defined as a 5-tuple ***(S, A, P(·,·), R(·,·), γ)***
 
 - ***S***: is a finite set of states. (一个有限的状态集)
 - ***A***: is a finite set of actions (alternatively, ***A<sub>s</sub>*** is the finite set of actions available from state ***s*** ). ( ***A<sub>s</sub>*** 也可以代表是状态 ***s*** 中的可用的一个集合)
-- ***P<sub>a</sub>(s, s’)***: is the probability that action ***a*** in state ***s*** will lead to state ***s'*** . (在动作 ***a***导致状态 ***s*** 到 ***s'*** 的概率)
-- ***R<span>a</span>(s, s’)***: is the immediate reward (or expected immediate reward) received after transitioning from state ***s*** to state ***s'*** , due to action ***a***. (当 ***s*** 过渡到 ***s'*** 之后立即得到奖励值)
-- ***γ ∈ [0,1]***: is the discount factor, which represents the difference in importance between future rewards and present rewards. (衰减因子，表示当前奖励值与未来得到的奖励值的区别)
+- ***P<sub>a</sub>(s, s’)*** : is the probability that action ***a*** in state ***s*** will lead to state ***s'*** . (在动作 ***a*** 导致状态 ***s*** 到 ***s'*** 的概率)
+- ***R<span>a</span>(s, s’)*** : is the immediate reward (or expected immediate reward) received after transitioning from state ***s*** to state ***s'*** , due to action ***a***. (当 ***s*** 过渡到 ***s'*** 之后立即得到奖励值)
+- ***γ ∈ [0,1]*** : is the discount factor, which represents the difference in importance between future rewards and present rewards. (衰减因子，表示当前奖励值与未来得到的奖励值的区别)
 
 ![mdp](https://github.com/zslucky/progressive-ai/blob/master/images/mdp.png)
