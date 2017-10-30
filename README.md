@@ -125,10 +125,10 @@ An important theory is `Markov Decision Process(MDP)`.
 
 MDP defined as a 5-tuple(S, A, P(·,·), R(·,·), γ)
 
-- **S**: is a finite set of states. (一个有限的状态集)
-- **A**: is a finite set of actions (alternatively, {\displaystyle A_{s}} A_s is the finite set of actions available from state s). (一个有限的状态集)
-- **P_a(s,s') = \Pr(s_{t+1}=s' \mid s_t = s, a_t=a) is the probability that action {\displaystyle a} a in state {\displaystyle s} s at time {\displaystyle t} t will lead to state {\displaystyle s'} s' at time {\displaystyle t+1} t+1,
-- **R(·,·)**: is a finite set of states. (一个有限的状态集)
-- **γ**: is a finite set of states. (一个有限的状态集)
+- ***S***: is a finite set of states. (一个有限的状态集)
+- ***A***: is a finite set of actions (alternatively, ***A<sub>s</sub>*** is the finite set of actions available from state ***s***). (***A<sub>s</sub>***也可以代表是状态***s***中的可用的一个集合)
+- ***P<sub>a</sub>(s, s’)***: is the probability that action ***a*** in state ***s*** will lead to state ***s'***. (在动作***a***导致状态***s***到***s'***的概率)
+- ***R<span>a</span>(s, s’)***: is the immediate reward (or expected immediate reward) received after transitioning from state ***s*** to state ***s'***, due to action ***a***. (当***s***过渡到***s'***之后立即得到奖励值)
+- **γ ∈ [0,1]**: is the discount factor, which represents the difference in importance between future rewards and present rewards.. (衰减因子，表示当前奖励值与未来得到的奖励值的区别)
 
-A<sub>s</sub>, M<sup>2</sup>
+![mdp](https://github.com/zslucky/progressive-ai/blob/master/images/mdp.png)
