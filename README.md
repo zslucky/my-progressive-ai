@@ -121,5 +121,14 @@ Because every things above has its own meaning at that time, all above are the A
 
 ## Reinforcement Learning
 
-TODO:
+An important theory is `Markov Decision Process(MDP)`.
 
+MDP defined as a 5-tuple(S, A, P(·,·), R(·,·), γ)
+
+- **S**: is a finite set of states. (一个有限的状态集)
+- **A**: is a finite set of actions (alternatively, {\displaystyle A_{s}} A_s is the finite set of actions available from state s). (一个有限的状态集)
+- **P_a(s,s') = \Pr(s_{t+1}=s' \mid s_t = s, a_t=a) is the probability that action {\displaystyle a} a in state {\displaystyle s} s at time {\displaystyle t} t will lead to state {\displaystyle s'} s' at time {\displaystyle t+1} t+1,
+- **R(·,·)**: is a finite set of states. (一个有限的状态集)
+- **γ**: is a finite set of states. (一个有限的状态集)
+
+A<sub>s</sub>, M<sup>2</sup>
