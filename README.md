@@ -139,7 +139,16 @@ Here's the most popular algorithms divide into 4 types:
 
 ![mdp](https://github.com/zslucky/progressive-ai/blob/master/images/rl-supports.png)
 
-Now let's see some base math expressions for `Q-learning`:
+- **Model-free** : Not related to environment, action based on every reward. (不尝试去理解环境, 环境给什么就是什么，一步一步等待真实世界的反馈, 再根据反馈采取下一步行动)
+- **Model-based** : Try to understand environment and build a model, try to use model to predict every reward, choose a best state then do action, it has a virtual environment.(尝试理解环境, 并创建一个模型, 利用模型来模拟未来的所有反馈, 选择最好的一个来进行行动, 他比Model-free多出了一个虚拟的环境, 有了想象力.)
+- **Policy based** : According to environment, give all actions' probility, then used best 1. (根据环境直接给出所有行动的概率, 使用最佳的一个.)
+- **Value based** : Give all action's value, next action is the biggest value action, it can't choose the continuous motion. (输出的是所有动作的价值, 根据最高价值来选动作，这类方法不能选取连续的动作.)
+- **Monte-carlo update** : From game start to game end, consider all actions, then update it. (游戏开始后, 要等待游戏结束, 然后再总结这一回合中的所有转折点, 再更新行为准则.)
+- **Temporal-difference update** : From game start, it will update at every step, so it can play the game as well as learning. (在游戏进行中每一步都在更新, 不用等待游戏的结束, 这样就能边玩边学习了.)
+- **On-policy** : 必须本人在场, 并且一定是本人边玩边学习.
+- **Off-policy** : 可以选择自己玩, 也可以选择看着别人玩, 通过看别人玩来学习别人的行为准则.
+
+Now let's use `Q-learning` as an example, see some base math expressions bellow:
 
  ***`π(s) = a`*** : policy function. (策略函数)
 
