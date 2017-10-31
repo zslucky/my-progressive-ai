@@ -96,7 +96,7 @@ For more compute vision algorithms, please refer to `OpenCV` [official site](htt
 
 It likes Machine learning, but use neural network. As data become bigger and bigger, hardware become more and more quick, deep learning become more and more popular.
 
-Also there are many algorithms like `CNN(Convolutional Neural Network)卷积神经网络`, `RNN(Recurrent Neural Networks)循环神经网络`, `DRL` etc...
+Also there are many algorithms like `CNN(Convolutional Neural Network)卷积神经网络`, `RNN(Recurrent Neural Networks)循环神经网络`, `DRL`, `GAN`, etc...
 
 Before these algorithms, we should know the `perceptron network(感知器神经网络)`, which we talked before, we can refer to these [article](http://neuralnetworksanddeeplearning.com/chap1.html) write by [Michael Nielsen](https://github.com/mnielsen)
 
@@ -134,3 +134,12 @@ MDP defined as a 5-tuple ***(S, A, P(·,·), R(·,·), γ)***
 - ***γ ∈ [0,1]*** : is the discount factor, which represents the difference in importance between future rewards and present rewards. (衰减因子，表示当前奖励值与未来得到的奖励值的区别)
 
 ![mdp](https://github.com/zslucky/progressive-ai/blob/master/images/mdp.png)
+
+Now let's see some base math expressions:
+
+ *** π(s) = a *** : policy function. (策略函数)
+
+One of the value functions ***V<sub>π</sub>***:
+
+![mdp](https://github.com/zslucky/progressive-ai/blob/master/images/value-function.png)
+
