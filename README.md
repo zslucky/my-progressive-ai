@@ -10,7 +10,8 @@ Progressive AI
 - [Deep Learning](#deep-learning)
 - [Real AI for ME](#real-ai-for-me)
 - [AI Levels](#ai-levels)
-- [Reinforcement Learning](reinforcement-learning)
+- [Reinforcement Learning](#reinforcement-learning)
+- [Meta Learning](#meta-learning)
 
 ## Whats the AI
 
@@ -135,7 +136,7 @@ MDP defined as a 5-tuple ***(S, A, P(·,·), R(·,·), γ)***
 
 ![mdp](https://github.com/zslucky/progressive-ai/blob/master/images/mdp.png)
 
-Here's the most popular algorithms divide into 4 types:
+**Here's the most popular algorithms divide into 4 types:**
 
 ![mdp](https://github.com/zslucky/progressive-ai/blob/master/images/rl-supports.png)
 
@@ -148,10 +149,16 @@ Here's the most popular algorithms divide into 4 types:
 - **On-policy** : 必须本人在场, 并且一定是本人边玩边学习.
 - **Off-policy** : 可以选择自己玩, 也可以选择看着别人玩, 通过看别人玩来学习别人的行为准则.
 
-Now let's use `Q-learning` as an example, see some base math expressions bellow:
+**Now let's use `Q-learning` as an example.**
+
+see some base math expressions bellow:
 
  ***`π(s) = a`*** : policy function. (策略函数)
 
 1 kind of the state value functions ***V<sub>π</sub>*** : (其中1种状态值函数, 实际中有很多种值函数, 这里将未来反馈奖励的总和作为值函数)
 
 ![mdp](https://github.com/zslucky/progressive-ai/blob/master/images/value-function.png)
+
+## Meta Learning
+
+TODO
