@@ -139,7 +139,7 @@ Now let's see some base math expressions:
 
  ***`π(s) = a`*** : policy function. (策略函数)
 
-One of the value functions ***`V<sub>π</sub>`*** :
+One of the value functions ***V<sub>π</sub>*** :
 
 ![mdp](https://github.com/zslucky/progressive-ai/blob/master/images/value-function.png)
 
