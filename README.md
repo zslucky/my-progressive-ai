@@ -27,7 +27,7 @@ What's the AI?
 
 What can be AI? The machine learning? Deep learning? Or something others? Let's look at a picture shows the relationship between these 3 things:
 
-![ai-ml-dl](https://github.com/zslucky/progressive-ai/blob/master/images/al-ml-dl.png)
+![ai-ml-dl](https://github.com/zslucky/my-progressive-ai/blob/master/images/al-ml-dl.png)
 
 Most of times we need an `agent` to do something like recognition or prediction. AI can do these thing well.
 
@@ -124,7 +124,7 @@ Because every things above has its own meaning at that time, all above are the A
 
 An important theory is `Markov Decision Process(MDP)`. See the follow image:
 
-![mdp](https://github.com/zslucky/progressive-ai/blob/master/images/reinforcement_learning_diagram.png)
+![mdp](https://github.com/zslucky/my-progressive-ai/blob/master/images/reinforcement_learning_diagram.png)
 
 MDP defined as a 5-tuple ***(S, A, P(·,·), R(·,·), γ)***
 
@@ -134,11 +134,11 @@ MDP defined as a 5-tuple ***(S, A, P(·,·), R(·,·), γ)***
 - ***R<span>a</span>(s, s’)*** : is the immediate reward (or expected immediate reward) received after transitioning from state ***s*** to state ***s'*** , due to action ***a***. (当 ***s*** 过渡到 ***s'*** 之后立即得到奖励值)
 - ***γ ∈ [0,1]*** : is the discount factor, which represents the difference in importance between future rewards and present rewards. (衰减因子，表示当前奖励值与未来得到的奖励值的区别)
 
-![mdp](https://github.com/zslucky/progressive-ai/blob/master/images/mdp.png)
+![mdp](https://github.com/zslucky/my-progressive-ai/blob/master/images/mdp.png)
 
 **Here's the most popular algorithms divide into 4 types:**
 
-![mdp](https://github.com/zslucky/progressive-ai/blob/master/images/rl-supports.png)
+![mdp](https://github.com/zslucky/my-progressive-ai/blob/master/images/rl-supports.png)
 
 - **Model-free** : Not related to environment, action based on every reward. (不尝试去理解环境, 环境给什么就是什么，一步一步等待真实世界的反馈, 再根据反馈采取下一步行动)
 - **Model-based** : Try to understand environment and build a model, try to use model to predict every reward, choose a best state then do action, it has a virtual environment.(尝试理解环境, 并创建一个模型, 利用模型来模拟未来的所有反馈, 选择最好的一个来进行行动, 他比Model-free多出了一个虚拟的环境, 有了想象力.)
@@ -157,7 +157,7 @@ see some base math expressions bellow:
 
 1 kind of the state value functions ***V<sub>π</sub>*** : (其中1种状态值函数, 实际中有很多种值函数, 这里将未来反馈奖励的总和作为值函数)
 
-![mdp](https://github.com/zslucky/progressive-ai/blob/master/images/value-function.png)
+![mdp](https://github.com/zslucky/my-progressive-ai/blob/master/images/value-function.png)
 
 ## Meta Learning
 
